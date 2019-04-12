@@ -14,6 +14,7 @@ loop:
 	addi  $t0,$t0,4
 	addi  $s1,$s1,1
 	beq   $t1,$s3,if
+	j     loop
 
 if:
     addi  $s2,$s2,1
